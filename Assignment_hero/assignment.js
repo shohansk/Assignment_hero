@@ -1,11 +1,11 @@
 
 //Kilotometer to Meter covert funtion
 
-function kilometerToMeter(meter){
-    if(meter<0){
+function kilometerToMeter(kilometer){
+    if(kilometer<0){
         console.log("Please Enter valid distance ditance can not be Negative"); // For inputing negative distance value this will be shown
     }
-    return kilometer=meter/1000; //for convert meter in kilometer 
+    return meter=kilometer*1000; //for convert meter in kilometer 
 }
 
 //Budget Calculator function
@@ -54,5 +54,4 @@ function megaFriend(names) {
     }
      return longest_name;   
 }
-
 
